@@ -1,0 +1,4 @@
+{"label": "ollama", "model": "qwen3.6-32k", "conc": 1, "n_in": 2796, "n_out": 256, "ttft_s": 14.989949824999712, "prefill_tps": 186.52497390864707, "decode_tps": 26.233668402184044, "agg_tps": 10.365858380601912}
+{"label": "llama.cpp ncmoe36 ub4096", "model": "x", "conc": 1, "n_in": 2787, "n_out": 256, "ttft_s": 4.3650331580001875, "prefill_tps": 638.2770094728784, "decode_tps": 36.82258037681933, "agg_tps": 22.673636880504013}
+{"label": "ollama", "model": "qwen3-coder-32k", "conc": 1, "n_in": 2799, "n_out": 256, "ttft_s": 14.884304565000093, "prefill_tps": 188.05043848550022, "decode_tps": 20.037313489896402, "agg_tps": 9.271541106921317}
+{"label": "llama.cpp ncmoe44 ub4096", "model": "x", "conc": 1, "n_in": 2791, "n_out": 256, "ttft_s": 3.714906239000811, "prefill_tps": 751.2975618869692, "decode_tps": 24.569624959994837, "agg_tps": 18.210672783317225}

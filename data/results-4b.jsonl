@@ -1,0 +1,8 @@
+{"label": "ollama", "model": "qwen3.5-4b-32k", "conc": 1, "n_in": 2796, "n_out": 256, "ttft_s": 1.700924901999997, "prefill_tps": 1643.81155024092, "decode_tps": 73.59855731219, "agg_tps": 49.4962098464847}
+{"label": "ollama", "model": "qwen3.5-4b-32k", "conc": 4, "n_in": 2795, "n_out": 256, "ttft_s": 7.13047924, "prefill_tps": 417.92872655900044, "decode_tps": 73.10895455948426, "agg_tps": 64.08417749899614}
+{"label": "llama.cpp ub2048 par4", "model": "x", "conc": 1, "n_in": 2787, "n_out": 256, "ttft_s": 1.3992946829999937, "prefill_tps": 1991.7177088280357, "decode_tps": 69.83586761676467, "agg_tps": 50.68459386928969}
+{"label": "llama.cpp ub2048 par4", "model": "x", "conc": 4, "n_in": 2787, "n_out": 256, "ttft_s": 5.8474069815000576, "prefill_tps": 476.6215290693043, "decode_tps": 34.946843029014374, "agg_tps": 77.3893637044493}
+{"label": "vllm kv1.5G seqs16", "model": "x", "conc": 1, "n_in": 2787, "n_out": 256, "ttft_s": 1.0656120589999318, "prefill_tps": 2614.459902616566, "decode_tps": 78.0499203764723, "agg_tps": 58.89268375322628}
+{"label": "vllm kv1.5G seqs16", "model": "x", "conc": 4, "n_in": 2787, "n_out": 256, "ttft_s": 1.243488328500007, "prefill_tps": 2241.2756170167695, "decode_tps": 66.60231920856555, "agg_tps": 201.12147380361156}
+{"label": "sglang mem0.85 mrr4 no_buffer, cool<=68C", "model": "x", "conc": 1, "n_in": 2787, "n_out": 256, "ttft_s": 1.0552368520000073, "prefill_tps": 2640.1655654080405, "decode_tps": 77.75848623277106, "agg_tps": 58.85178103886425}
+{"label": "sglang mem0.85 mrr4 no_buffer, cool<=68C", "model": "x", "conc": 4, "n_in": 2787, "n_out": 256, "ttft_s": 3.265171720999888, "prefill_tps": 1281.210436089251, "decode_tps": 73.12396110056781, "agg_tps": 116.78680232674706}

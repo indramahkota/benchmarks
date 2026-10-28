@@ -1,0 +1,13 @@
+# Models, environments and test inputs live outside the repository.
+models/
+envs/
+*.gguf
+*.safetensors
+*.wav
+*.glb
+fleurs/
+__pycache__/
+*.pyc
+.venv/
+venv*/
+.env*
